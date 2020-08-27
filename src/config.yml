@@ -1,0 +1,16 @@
+#================================#
+#\          BreakBanner         /#
+# | Code By SunnyDepTraiVaiLon | #
+#/         Version: 1.0         \#
+#================================#
+
+# Các block bạn bắt buộc phải ghi chữ in hoa
+# Lấy tên block tại đây: https://papermc.io/javadocs/paper/1.12/org/bukkit/Material.html
+
+# Đây là block khi player đập sẽ thực hiện lệnh bên dưới
+blocks:
+ - 'DIAMOND_ORE'
+# - 'IRON_ORE'
+
+# Đây là lệnh khi đập block bên trên
+command: 'ban %player% &8[&cBreakBanner&8]\n&aĐừng đập kim cương bạn ơi!'
